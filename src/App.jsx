@@ -10,7 +10,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
-      <div className="w-full flex flex-col py-8 bg-[#0f0f0f] auto scroll-smooth">
+      <div className="w-full flex flex-col py-2 bg-[#0f0f0f] auto scroll-smooth">
         <Header />
         <section id="home">
           <Hero />

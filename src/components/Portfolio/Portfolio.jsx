@@ -29,18 +29,18 @@ const Portfolio = () => {
         "A sleek crypto website that displays up-to-date prices for major cryptocurrencies. Built using React and public APIs for real-time data updates.",
       link: "https://digi-moni.vercel.app/",
     },
-    {
-      image: p1,
-      title: "Dreamweaver",
-      description:
-        "An app built with animations and transitions for a polished and delightful experience.",
-    },
-    {
-      image: p1,
-      title: "HD",
-      description:
-        "A backend-powered project handling real-time updates and user-generated content.",
-    },
+    // {
+    //   image: p1,
+    //   title: "Dreamweaver",
+    //   description:
+    //     "An app built with animations and transitions for a polished and delightful experience.",
+    // },
+    // {
+    //   image: p1,
+    //   title: "HD",
+    //   description:
+    //     "A backend-powered project handling real-time updates and user-generated content.",
+    // },
   ];
 
   return (

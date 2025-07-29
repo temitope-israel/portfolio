@@ -46,31 +46,46 @@ const AboutMe = () => {
         </div>
 
         {/* Bio Text */}
-        <div className="space-y-6 text-left">
+        <div className="space-y-6 text-justify">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            minima fuga rerum ex labore dolorem cupiditate reiciendis, earum
-            voluptatum nihil repellat reprehenderit eos quis obcaecati esse
-            provident hic dolor. Minus!
+            I am a passionate and detail-oriented Junior Full Stack Developer
+            with hands-on experience in building and deploying real-world,
+            production-level web applications. My technical expertise includes
+            working with modern technologies such as React, Next.js, MongoDB,
+            and Tailwind CSS to create scalable, responsive, and user-friendly
+            solutions.
+          </p>
+          <p>
+            One of my most notable achievements includes designing and
+            developing a Customer Profiling System for Honda Manufacturing
+            Nigeria, which involved full-stack development from frontend UI to
+            backend data handling. I have also built other dynamic applications,
+            including a food delivery platform and a cryptocurrency information
+            site, further strengthening my understanding of full-stack
+            architecture and best development practices.{" "}
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            minima fuga rerum ex labore dolorem cupiditate reiciendis, earum
-            voluptatum nihil repellat reprehenderit eos quis obcaecati esse
-            provident hic dolor. Minus!
+            Beyond my coding skills, I’m proficient with tools such as Git,
+            GitHub, basic Linux commands, Microsoft Excel, and PowerPoint, and I
+            have experience in general desktop support. I bring to the table a
+            strong analytical mindset, an eye for clean and accessible UI
+            design, and a commitment to continuous learning and professional
+            development. I’m highly motivated by the challenge of solving real
+            problems through code and am always eager to contribute to
+            meaningful, impactful projects within collaborative development
+            teams.
           </p>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            minima fuga rerum ex labore dolorem cupiditate reiciendis, earum
-            voluptatum nihil repellat reprehenderit eos quis obcaecati esse
-            provident hic dolor. Minus!
-          </p>
-
-          <button className="bg-[#00f7d2] p-4 rounded text-black flex items-center gap-3 mt-6 w-fit">
-            View Resume <TfiBag className="text-2xl" />
-          </button>
+          <a
+            href="/resume.pdf" // You can update this to your actual CV link
+            rel="noopener noreferrer"
+            className="bg-[#00f7d2] p-4 rounded text-black flex items-center gap-3 mt-6 w-fit transition hover:opacity-90"
+            download={"resume.pdf"}
+          >
+            Download Resume
+            <TfiBag className="ml-2 w-5 h-5" />
+          </a>
         </div>
       </div>
 

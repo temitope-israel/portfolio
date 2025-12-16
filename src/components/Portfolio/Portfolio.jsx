@@ -3,16 +3,24 @@ import quickstayhotel from "../../assets/images/quickstayhotel.png";
 import srm from "../../assets/images/smooth-ride-motorcycles.png";
 import digimoni from "../../assets/images/digimoni.png";
 import p1 from "../../assets/images/p1.webp";
+import hmn from "../../assets/images/hmn.png";
 
 import ProjectCard from "./ProjectCard";
 
 const Portfolio = () => {
   const projects = [
     {
+      image: hmn,
+      title: "Honda Manufacturing Nigeria",
+      description:
+        "A full-stack web app for registering and managing Homda Manufacturing Nigeria dealers/customers with barcode scanning, admin roles, and analytics. Built with Next.js and MongoDB.",
+      link: "https://honda-customer-profiling.vercel.app/",
+    },
+    {
       image: srm,
       title: "Smooth Ride Motorcycles",
       description:
-        "A full-stack web app for registering and managing Smooth Ride Motorcycle customers with barcode scanning, admin roles, and analytics. Built with Next.js and MongoDB.",
+        "A full-stack web app clone of Honda Manufacturing Nigeria - for registering and managing Smooth Ride Motorcycle customers with barcode scanning, admin roles, and analytics. Built with Next.js and MongoDB. ",
       link: "https://smooth-ride-motorcycles.vercel.app/",
     },
     {
@@ -29,18 +37,6 @@ const Portfolio = () => {
         "A sleek crypto website that displays up-to-date prices for major cryptocurrencies. Built using React and public APIs for real-time data updates.",
       link: "https://digi-moni.vercel.app/",
     },
-    // {
-    //   image: p1,
-    //   title: "Dreamweaver",
-    //   description:
-    //     "An app built with animations and transitions for a polished and delightful experience.",
-    // },
-    // {
-    //   image: p1,
-    //   title: "HD",
-    //   description:
-    //     "A backend-powered project handling real-time updates and user-generated content.",
-    // },
   ];
 
   return (

@@ -2,15 +2,23 @@ import React from "react";
 import quickstayhotel from "../../assets/images/quickstayhotel.png";
 import srm from "../../assets/images/smooth-ride-motorcycles.png";
 import digimoni from "../../assets/images/digimoni.png";
-import p1 from "../../assets/images/p1.webp"; // Using this for one of the new slots
+import p1 from "../../assets/images/p1.webp";
 import hmn from "../../assets/images/hmn.png";
 import coffee from "../../assets/images/coffee.png";
 import airpod from "../../assets/images/airpod.png";
+import hse from "../../assets/images/hotis-studio-editor.png";
 
 import ProjectCard from "./ProjectCard";
 
 const Portfolio = () => {
   const projects = [
+    {
+      image: hse,
+      title: "Hotis Studio Editor (Beta)",
+      description:
+        "A full-stack email architect featuring a drag-and-drop canvas and a contextual property inspector. Built with Next.js 14, TypeScript, and PostgreSQL (Prisma) to manage complex JSON-based layouts.",
+      link: "https://hotis-studio-editor.vercel.app/",
+    },
     {
       image: hmn,
       title: "Honda Manufacturing Nigeria",
@@ -30,11 +38,11 @@ const Portfolio = () => {
       title: "Premium Coffee Shop",
       description:
         "A sophisticated landing page for a boutique coffee brand. Focuses on minimalist design, responsive layouts, and high-quality visual storytelling. Built with React and Tailwind CSS.",
-      link: "https://coffee-website-henna-six.vercel.app/", // Replace with your project link
+      link: "https://coffee-website-henna-six.vercel.app/",
     },
     {
       image: quickstayhotel,
-      title: "Quick Stay Hotel - Hotel Booking Application",
+      title: "Quick Stay Hotel",
       description:
         "A frontend-only hotel booking interface that allows users to explore listings, view details, and simulate bookings with a clean, responsive UI. Built with React and Tailwind CSS.",
       link: "https://quick-stay-hotel-b6vy.vercel.app/",
@@ -44,11 +52,11 @@ const Portfolio = () => {
       title: "Apple AirPods Max Slider",
       description:
         "An immersive, interactive product slider featuring fluid animations and smooth transitions. Built with React, Framer Motion, and Tailwind CSS for a premium user experience.",
-      link: "",
+      link: "https://airpods-max-slider.vercel.app/", // Make sure to add this link if you have it!
     },
     {
       image: digimoni,
-      title: "DigiMoni - Crypto Price Tracker",
+      title: "DigiMoni - Crypto Tracker",
       description:
         "A sleek crypto website that displays up-to-date prices for major cryptocurrencies. Built using React and public APIs for real-time data updates.",
       link: "https://digi-moni.vercel.app/",

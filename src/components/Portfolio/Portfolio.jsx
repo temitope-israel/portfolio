@@ -16,7 +16,7 @@ const Portfolio = () => {
       image: hse,
       title: "Hotis Studio Editor (Beta)",
       description:
-        "A full-stack email architect featuring a drag-and-drop canvas and a contextual property inspector. Built with Next.js 14, TypeScript, and PostgreSQL (Prisma) to manage complex JSON-based layouts.",
+        "A full-stack email architect featuring a drag-and-drop canvas and a contextual property inspector. Built with Next.js, TypeScript, and PostgreSQL (Prisma) to manage complex JSON-based layouts.",
       link: "https://hotis-studio-editor.vercel.app/",
     },
     {

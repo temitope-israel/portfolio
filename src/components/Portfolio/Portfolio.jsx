@@ -7,31 +7,49 @@ import hmn from "../../assets/images/hmn.png";
 import coffee from "../../assets/images/coffee.png";
 import airpod from "../../assets/images/airpod.png";
 import hse from "../../assets/images/hotis-studio-editor.png";
+import lagonest  from "../../assets/images/lagonest.png"
+import nexusPay  from "../../assets/images/nexusPay.png"
+import hmnCooperative  from "../../assets/images/hmnCooperative.png"
 
 import ProjectCard from "./ProjectCard";
 
 const Portfolio = () => {
   const projects = [
-    {
-      image: hse,
-      title: "Hotis Studio Editor (Beta)",
-      description:
-        "A full-stack email architect featuring a drag-and-drop canvas and a contextual property inspector. Built with Next.js, TypeScript, and PostgreSQL (Prisma) to manage complex JSON-based layouts.",
-      link: "https://hotis-studio-editor.vercel.app/",
-    },
+  {
+  image: lagonest,
+  title: "LagoNest — Real Estate Platform",
+  description:
+    "A premium real estate web app featuring a full-screen property search hero, filterable listings grid, neighborhood explorer, and agent profiles. Built with React, TypeScript, Tailwind CSS v4, and Framer Motion.",
+  link: "https://lagonest.vercel.app/",
+},
+
+ {
+  image: nexusPay,
+  title: "Nexus Pay — Fintech SaaS Landing Page",
+  description:
+    "A fintech SaaS landing page featuring an animated dashboard mockup, bento grid features section, monthly/annual pricing toggle, and a custom cursor with spring physics. Built with React, TypeScript, Tailwind CSS v4, and Framer Motion.",
+  link: "https://nexus-pay-eight.vercel.app/",
+},
+{
+  image: srm,
+  title: "Smooth Ride Motorcycles",
+  description:
+    "A full-stack web app clone of Honda Manufacturing Nigeria - for registering and managing Smooth Ride Motorcycle customers with barcode scanning, admin roles, and analytics. Built with Next.js and MongoDB.",
+  link: "https://smooth-ride-motorcycles.vercel.app/",
+},
+{
+  image: hmnCooperative,
+  title: "HMN Cooperative Society — WIP",
+  description:
+    "A Nigerian cooperative society management platform for tracking member savings, loan applications, and repayment schedules. Built with React, TypeScript, Tailwind CSS v4, and Framer Motion. Currently in active development.",
+  link: "https://hmn-cooperative.vercel.app/",
+},
     {
       image: hmn,
       title: "Honda Manufacturing Nigeria",
       description:
         "A full-stack web app for registering and managing Honda Manufacturing Nigeria dealers/customers with barcode scanning, admin roles, and analytics. Built with Next.js and MongoDB.",
       link: "https://honda-customer-profiling.vercel.app/",
-    },
-    {
-      image: srm,
-      title: "Smooth Ride Motorcycles",
-      description:
-        "A full-stack web app clone of Honda Manufacturing Nigeria - for registering and managing Smooth Ride Motorcycle customers with barcode scanning, admin roles, and analytics. Built with Next.js and MongoDB.",
-      link: "https://smooth-ride-motorcycles.vercel.app/",
     },
     {
       image: coffee,
